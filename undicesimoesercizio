@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prova HTML</title>
+
+</head>
+
+<body>
+    <h1 style="text-align: center">Titolo Principale</h1>
+    <p>
+    <table>
+        <tr>
+            <th> <!-- table row-->
+                Marca
+            </th>
+            <th>
+                Modello
+            </th>
+            <th>
+                Anno
+            </th>
+        </tr>
+        <tr>
+            <td> <!-- table data-->
+                FERRARI
+            </td>
+            <td>
+                488
+            </td>
+            <td>
+                2022
+            </td>
+
+        </tr>
+        <tr>
+            <td> <!-- table data-->
+                LAMBORGHINI
+            </td>
+            <td>
+                SVJ
+            </td>
+            <td>
+                2021
+            </td>
+
+        </tr>
+
+    </table>
+    <style type="text/css">
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        tr,
+        td,
+        th {
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        tr,
+        td,
+        th {
+            padding: 15px;
+        }
+     </style>
+     </p>
+ </body>
+
+ </html>

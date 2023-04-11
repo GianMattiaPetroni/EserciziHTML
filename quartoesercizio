@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prova HTML</title>
+
+</head>
+
+<body>
+    <h1 style="text-align: center; color: red;">Titolo Principale</h1>
+    <p style="color: red;"> Lui <b>folgorante</b> in solio <br>
+        Vide il mio <strong>genio</strong> e tacque;<br>
+        Quando, <i>con vece assidua</i>,<br>
+        Cadde, <em>risorse e giacque</em>,<br>
+        Di mille voci al sonito<br>
+        Mista la sua non ha:<br>
+    </p>
+
+</body>
+
+</html>

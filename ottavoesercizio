@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prova HTML</title>
+    
+    </head>
+    <body>
+        <p> <img src="https://www.terranuova.it/var/terranuova/storage/images/news/attualita/cani-ecco-come-i-cuccioli-imparano-dall-uomo/1338268-1-ita-IT/Cani-ecco-come-i-cuccioli-imparano-dall-uomo_articleimage.jpg" alt="foto con un cane" style="width: 600px; height: 300px; margin-left: 300px;" title="cane"> 
+        </p>
+    </body>
+</html>

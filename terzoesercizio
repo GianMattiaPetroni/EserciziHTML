@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prova HTML</title>
+
+</head>
+
+<body>
+    <h1 style="text-align: center">Titolo Principale</h1>
+    <p> Lui <b>folgorante</b> in solio <br>
+        Vide il mio <strong>genio</strong> e tacque;<br>
+        Quando, <i>con vece assidua</i>,<br>
+        Cadde, <em>risorse e giacque</em>,<br>
+        Di mille voci al sonito<br>
+        Mista la sua non ha:<br>
+    </p>
+    <hr size="3" colore="black">
+    <p>
+        <mark style="background-color: blueviolet; color: black">Vergin di servo encomio </mark><br>
+        <del>E di codardo oltraggio</del>,<br>
+        Sorge or commosso al subito<br>
+        Sparir di tanto raggio:<br>
+        E scioglie all’urna un cantico<br>
+        Che forse non morrà.<br>
+    </p>
+</body>
+
+</html>

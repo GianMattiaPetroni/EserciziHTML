@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prova HTML</title>
+    
+    </head>
+    <body>
+        <h1 style="text-align: center">Titolo Principale</h1>
+        <p> <form method="get"> <!-- ha un attributo action dove si decide l'indirizzo al quale mandare la request che partirà al submit -->
+            <fieldset>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome"> 
+            <br>
+            <label>Cognome: </label>
+            <input type="text" name="cognome" placeholder="Inserisci il tuo cognome">
+            <br>
+            <label>Password: </label>
+            <input type="password" name="password" placeholder="Minimo 5 caratteri" minlength="5">
+            <br>
+            <label>E-mail: </label>
+            <input type="email" name="email" placeholder="Inserisci il tuo indirizzo e-mail">
+            <br>
+            <label>Messaggio: </label>
+            <input type="text" name="messaggio" placeholder="Inserisci il messaggio">
+            <br>
+            </fieldset>
+            
+         </p>
+     </body>
+ </html>
