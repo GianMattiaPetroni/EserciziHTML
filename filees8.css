@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+
+p{border-style:solid;
+    border-color: #ff0000;
+text-align: center;}
+    
+div{
+    margin: 30px 10px 10px 10px;
+    border-width: 450px;
+    background-color:#9c9c9c;
+   }

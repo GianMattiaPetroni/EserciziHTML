@@ -7,24 +7,27 @@
     </head>
     <body>
         <h1 style="text-align: center">Titolo Principale</h1>
-        <p> <form method="get"> <!-- ha un attributo action dove si decide l'indirizzo al quale mandare la request che partirà al submit -->
-            <fieldset>
-            <label for="nome">Nome: </label>
-            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome"> 
-            <br>
-            <label>Cognome: </label>
-            <input type="text" name="cognome" placeholder="Inserisci il tuo cognome">
-            <br>
-            <label>Password: </label>
-            <input type="password" name="password" placeholder="Minimo 5 caratteri" minlength="5">
-            <br>
-            <label>E-mail: </label>
-            <input type="email" name="email" placeholder="Inserisci il tuo indirizzo e-mail">
-            <br>
-            <label>Messaggio: </label>
-            <input type="text" name="messaggio" placeholder="Inserisci il messaggio">
-            <br>
-            </fieldset>
+        <form action="/action_page.php">
+            <input type="text" id="nome" name="nome" placeholder=”Nome”><br>
+            <input type="text" id="cognome" name="cognome" placeholder=”Cognome”><br>
+            <input type=" email " id="email " name="email " placeholder=”E-mail”><br>
+            <textarea name="messaggio" rows="10" cols="30" placeholder=”Messaggio”></textarea><br>
+            
+            <input type="radio" id="apple" name="fav_language" value="apple">
+            <label for="apple">apple</label><br>
+            <input type="radio" id="samsung" name="fav_language" value="samsung">
+            <label for="samsung">samsung</label><br>
+            <input type="radio" id="huawei" name="fav_language" value="huawei">
+            <label for="huawei">huawei</label><br><br>
+    
+
+            <input type="checkbox" id="animale1" name="animale1" value="Cane">
+            <label for="animale1"> ho un cane </label><br>
+            <input type="checkbox" id="animale2" name="animale2" value="Gatto">
+            <label for="animale2"> ho un gatto </label><br>
+            <input type="checkbox" id="animale3" name="animale3" value="Tartaruga">
+            <label for="animale3"> ho una tartaruga</label><br><br>
+
             
          </p>
      </body>
