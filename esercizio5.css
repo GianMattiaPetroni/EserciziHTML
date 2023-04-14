@@ -1,0 +1,21 @@
+#contenitoreEsterno{ 
+    background-color: red;
+    width: 500px;
+    margin: 0 auto;
+}
+#contenitoreInterno{
+    width: 100%;
+    display: inline-block;
+}
+#contenitoreEsterno #contenitoreInterno .contenitore{
+    width: 200px;
+    height: 200px;
+}
+#contenitoreEsterno #contenitoreInterno .contenitore:nth-child(1){
+    background-color: grey;
+    float: left;
+}
+#contenitoreEsterno #contenitoreInterno .contenitore:nth-child(2){
+    background-color: blue;
+    float: right;
+}

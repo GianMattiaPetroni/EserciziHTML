@@ -1,0 +1,13 @@
+div{
+    width: 250px;
+	height: 100px;
+    background-color: red;
+    transition: width 1s;
+    margin-left: 40%;
+	
+}
+
+div:hover{
+	Width: 500px;
+}
+

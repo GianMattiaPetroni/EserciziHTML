@@ -5,20 +5,21 @@ body{
     
 div{display: flex;
     margin: 30px 10px 10px 10px;
-    border-width: 450px;
+    padding: 10px;
+    width: 450px;
     background-color:#9c9c9c;
     
    }
    #primoparagrafo{ 
     background-color:cornflowerblue;
     margin: 10px;
-    margin-left: 35%;
+    margin-left: 10%;
    
    }
    #secondoparagrafo{
  background-color: blue;
  margin: 10px;
- margin-right: 35%;
+ margin-right: 10%;
 
    }
    

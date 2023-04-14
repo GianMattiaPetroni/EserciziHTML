@@ -8,12 +8,15 @@ body{
 }
     
 div{ display: flex;
-    border-width: 450px;
+    width: 450px;
+    background-color: bisque;
+    margin-left: 30%;
+    padding: 10px;
     }
    #primoparagrafo{ 
     background-color:aqua;
     margin: 10px;
-    margin-left: 35%;
+    margin-left: 10%;
     border-style:solid;
     border-color: red;
    
@@ -21,7 +24,7 @@ div{ display: flex;
    #secondoparagrafo{
  background-color:magenta;
  margin: 10px;
- margin-right: 35%;
+ margin-right: 10%;
  border-style:solid;
  border-color: green;
    }
